@@ -27,8 +27,8 @@ public class QuestionEighteenStaticMethodDemo {
 
     public static void main(String[] args) {
         // Step 3: Calling static method twice
-        incrementCounter(); // First call  --> 1
-        incrementCounter(); // Second call --> 2
+        incrementCounter(); // In first call  --> 1
+        incrementCounter(); // In second call --> 2
         // Since counter is a static variable, it is not reset to 0 with each call.
         // Instead, it retains its value between method calls.
         // Therefore, when you call the method a second time,
